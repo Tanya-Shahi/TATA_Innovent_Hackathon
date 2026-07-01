@@ -1,0 +1,6 @@
+{
+    "input_size": 14,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "window_size": 30
+}
