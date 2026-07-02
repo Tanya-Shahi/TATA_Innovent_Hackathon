@@ -87,7 +87,7 @@ fleet, simulator = load_fleet()
 def get_preloaded_fleet():
     f, s = load_fleet()
     engines      = s.get_sample_engines(n=5)
-    life_stages  = [0.2, 0.4, 0.55, 0.7, 0.85]
+    life_stages = [0.3, 0.55, 0.75, 0.88, 0.95]
 
     for engine_id, stage in zip(engines, life_stages):
         f.add_engine(engine_id)
