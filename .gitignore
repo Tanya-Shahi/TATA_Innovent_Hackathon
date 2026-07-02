@@ -31,14 +31,13 @@ data/processed/
 *.zip
 *.tar.gz
 
-# Model files (too large for GitHub)
-models/*.pt
-models/*.pth
-models/*.onnx
-models/*.pkl
-models/*.joblib
-models/*.bin
-
+# Model files - commented out for hackathon demo
+# models/*.pt
+# models/*.pth
+# models/*.onnx
+# models/*.pkl
+# models/*.joblib
+# models/*.bin
 # Logs
 logs/
 *.log
