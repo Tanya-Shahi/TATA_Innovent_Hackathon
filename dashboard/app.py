@@ -71,7 +71,11 @@ def load_fleet():
     model_path  = project_root / "models" / "lstm_rul.pt"
     scaler_path = project_root / "models" / "scaler.pkl"
     config_path = project_root / "models" / "model_config.json"
+    # Use the full dataset if present locally; otherwise fall back to the small
+    # demo subset (engines 1-10) that is committed for cloud deployment.
     data_path   = project_root / "data"   / "raw" / "train_FD001.txt"
+    if not data_path.exists():
+        data_path = project_root / "data" / "demo" / "train_FD001_demo.txt"
 
     fleet     = FleetDigitalTwin(
         model_path=str(model_path),
