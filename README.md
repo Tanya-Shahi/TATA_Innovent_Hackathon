@@ -2,6 +2,7 @@
 ### Tata Technologies InnoVent Hackathon Submission
 
 A production-ready predictive maintenance platform that runs an LSTM-based Remaining Useful Life (RUL) prediction model entirely on local CPU hardware, with no cloud dependency for inference. The system maintains a real-time digital twin for each engine in a fleet and surfaces actionable maintenance alerts through an interactive dashboard.
+Dashboard:[tatainnoventhackathon-fjwvbqjwzbmrectqinbf4k.streamlit.app/](https://tatainnoventhackathon-fjwvbqjwzbmrectqinbf4k.streamlit.app/)
 
 ---
 
